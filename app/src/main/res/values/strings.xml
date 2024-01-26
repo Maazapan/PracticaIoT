@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Practica</string>
+    <string-array name="spinner_options">
+        <item>ITEM 1</item>
+        <item>ITEM 2</item>
+        <item>ITEM 3</item>
+        <item>ITEM 4</item>
+        <item>ITEM 5</item>
+    </string-array>
+    <string name="app_name">My IoT</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_p1">First Practice</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
 </resources>

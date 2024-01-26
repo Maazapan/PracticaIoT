@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="229dp"
+        android:layout_height="231dp"
+        android:src="@drawable/_011b5ab5f2376f26a5d46ff904fc5e2"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:theme="@style/Base.Theme.Practica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplicaciones de Lot"
+        app:barrierMargin="16dp"
+        android:layout_margin="16dp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Roberto Barrios"
+        android:textColor="@color/blue"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practicas 0"
+        android:layout_margin="16dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="488dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
